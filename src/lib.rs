@@ -41,7 +41,7 @@ use core::ops::{Deref, DerefMut};
 pub auto trait NonSensitive {}
 
 /// A transparent wrapper type that makes any value implement !NonSensitive.  
-/// This type is garunteed
+/// This type is garunteed to have the same size as the inner data.
 /// For an example, see the documentation on `NonSensitive`.
 #[repr(transparent)]
 pub struct SensitiveData<T>(T);
