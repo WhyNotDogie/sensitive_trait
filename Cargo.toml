@@ -1,0 +1,11 @@
+[package]
+name = "sensitive_trait"
+description = "A maker trait for sensitive information."
+version = "0.1.0"
+edition = "2021"
+license = "ISC"
+authors = ["WhyNotDogie"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
