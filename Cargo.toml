@@ -1,6 +1,6 @@
 [package]
 name = "sensitive_trait"
-description = "A maker trait for sensitive information."
+description = "A marker trait for sensitive information."
 version = "0.1.1"
 edition = "2021"
 license = "ISC"

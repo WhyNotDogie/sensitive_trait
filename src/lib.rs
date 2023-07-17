@@ -2,12 +2,12 @@
 #![feature(auto_traits)]
 #![feature(negative_impls)]
 
-//! A maker trait for sensitive information.
+//! A marker trait for sensitive information.
 //! For more information, see documentation on the NonSensitive struct.
 
 use core::ops::{Deref, DerefMut};
 
-/// A maker trait for sensitive information.  
+/// A marker trait for sensitive information.  
 /// # Examples
 /// This will compile error:
 /// ```compile_fail
